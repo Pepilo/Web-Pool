@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang ="fr">
+        <head>
+            <meta charset='utf-8'>
+            <title>CodingPedia</title>
+            <link rel = "stylesheet" href = "codingpedia.css">
+        </head>
+    <body>
+        <header class = "box">
+            <h1>Welcome to CodingPedia!</h1>
+            <nav class = "box">
+                <ul>
+                    <li><a href = "index.html">Index</a></li>
+                    <li><a href = "php.html">PHP</a></li>
+                    <li><a href = "sql.html">SQL</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class = "box">
+            <p>
+                CodingPedia is a collective encyclopedia project on the Internet aiming to be universal and multi-lingual wich functions as a wiki.
+                <br>
+                CodingPedia has for goal to offer freely reusable objective and verifiable content that anyone can modify and improve.
+            </p>
+            <article>
+                <form>
+                    <label for = "name">Enter your name: </label>
+                    <input type = "text" id = "name" required >
+                    <label for = "first_name">Enter your first name: </label>
+                    <input type = "text" id = "first_name" required >
+                    <label for = "email">Enter your email: </label>
+                    <input type = "email" id = "email" required >
+                    <label for = "age">Enter your age: </label>
+                    <input type = "number" id = "age" min = "3" max = "99" >
+                    <label for = "phone">Enter you phone number: </label>
+                    <input type = "tel" id = "phone" size = "10" >
+                    <label for = "sex_male">male </label>
+                    <input type = "radio" id = "sex_male" name = "sex" value = "male" checked>
+                    <label for = "sex_female">female </label>
+                    <input type = "radio" id = "sex_female" name = "sex" value = "female">
+                    <label for = "hair_color">Choose your hair color: </label>
+                    <input type = "color" id ="hair_color">
+                    <label for = "date">Enter the date: </label>
+                    <input type = "date" id = "date" required>
+                    <label for = "techno">Choose a tec: </label>
+                    <select id = "techno">
+                        <option value = "php">PHP</option>
+                        <option value = "sql">SQL</option>
+                    </select>
+                    <label for = "question">Enter your question: </label>
+                    <textarea id = "question" required></textarea>
+                    <input type = "submit" value = "Submit" >
+                </form>                  
+            </article>
+        </main>
+        <aside class = "box">
+            <p>
+                Hi, i'm a junior dev.
+            </p>
+        </aside>
+        <footer class = "box">
+            <address>
+                Name: Piquemal-Perrin<br>
+                First name: Loïck<br>
+                Adress: 25 Rue de la liberté, 34200 Sète<br>
+                Tel: 07 86 12 93 99
+            </address>
+        </footer>       
+    </body>
+</html>

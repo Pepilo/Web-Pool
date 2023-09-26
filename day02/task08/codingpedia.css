@@ -1,0 +1,62 @@
+body {
+    background-color: grey;
+}
+
+.box {
+    background-color: white;
+    border: black solid 2px;
+    margin: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/*CSS Grid*/
+header {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr 5fr;
+}
+h1 {
+    grid-column: 1/5;
+}
+nav {
+    grid-column: 6;
+}
+
+/*flexbox*/
+.flex {
+    display: flex;
+}
+main {
+    width: 80%;
+}
+aside {
+    width :20%;
+}
+
+/*Carre qui bouge*/
+.moving_square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation-name: tournicoti;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+}
+@keyframes tournicoti {
+    0%, 100% {
+       transform:translateY(0px);
+       background-color: red;
+    }
+    25% {
+        transform: translateY(300px);
+        background-color: green;
+    }
+    50% {
+        transform: translateX(300px) translateY(300px);
+        background-color: blue;
+    }
+    75% {
+        transform: translateY(0px) translateX(300px);
+        background-color: yellow;
+    }
+}

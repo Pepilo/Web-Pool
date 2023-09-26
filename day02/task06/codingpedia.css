@@ -1,0 +1,6 @@
+.box {
+    border: black solid 2px;
+    margin: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
