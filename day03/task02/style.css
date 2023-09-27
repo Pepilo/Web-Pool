@@ -1,0 +1,27 @@
+@media (max-width: 767px){
+    body {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+    header {
+        background-color: #51a1ed;
+        height: 9vh;
+        width: 96vw;
+    }
+    .vide {
+        background-color: #1dcc63;
+        height: 24vh;
+        width: 96vw;
+    }
+    .phone {
+        background-color: #dbd269;
+        height: 24vh;
+        width: 96vw;
+    }
+    footer {
+        background-color: #e33939;
+        height: 9vh;
+        width: 96vw;
+    }
+}
